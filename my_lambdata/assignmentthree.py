@@ -11,7 +11,7 @@ class CustomFrame(pandas.DataFrame):
         # type(new_df["abbrev"]) #> <class 'pandas.core.series.Series'>
         # see: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.map.html
         names_map = {
-            "CA": "Cali",
+            "CA": "California",
             "CT": "Conn",
             "CO": "Colorado"
             # todo: more abbrevs!
